@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 //Foundation// 
-@import "./Foundation/reset"
+@import "./foundation/reset" ;
+@import "./foundation/base" ;
 
-//Foundation// 
+//Layout// 
+@import "./layout/l-header" ;

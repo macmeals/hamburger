@@ -4,6 +4,9 @@
    <meta charset="utf-8">
    <title>Hanburger Site</title>
    <meta name= "description" content="一般的なハンバーガーサイトです">
+
+   <!-- ブレイクポイントを設定 -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
    <!-- m＋フォントを適応 -->
    <link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/basic_latin/mplus_webfonts.css">
@@ -17,10 +20,23 @@
    <link href="./CSS/hambuger.css" rel="stylesheet">
 
  </head>
- <body>
-   <header>
+ <body >
+  <header class="l-header">
+    <div class="l-header__top">
+      <h2>menu</h2>
+    </div>
+    <div class="l-header__bottom">
+      <h1><a>Hanburger</a></h1>
+      <form>
+        <input type="search" name="search" placeholder="虫眼鏡">
+        <input type="submit" name="submit" value="検索">
+      </form>
+    
+    
+    </div>
 
-   </header>
+   </div>
+  </header>
    <main>
 
    </main>
