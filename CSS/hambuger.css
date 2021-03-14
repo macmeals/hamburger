@@ -326,4 +326,8 @@ body {
   /* RobotoとM＋フォントを利用 */
   color: #707070;
 }
+
+/* PCはWidthが1200pxより大きい */
+/* タブレットはWidthが1200pxより小さい */
+/* スマホはWidthが700pxより小さい */
 /*# sourceMappingURL=hambuger.css.map */
