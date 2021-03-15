@@ -327,7 +327,69 @@ body {
   color: #707070;
 }
 
+input {
+  font-family: FontAwesome;
+}
+
 /* PCはWidthが1200pxより大きい */
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
+.l-header {
+  height: 8vh;
+  width: 100vw;
+  background-color: #FFF7EF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-header__top {
+  height: 8vh;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: cadetblue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-header__bottom {
+  height: 8vh;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2ede9;
+}
+
+.c-button {
+  background-color: burlywood;
+  border: 1px solid #707070;
+  height: 18px;
+  width: 7vw;
+  border-radius: 5px;
+}
+
+.c-window {
+  background-color: white;
+  border: 1px solid #707070;
+  height: 18px;
+  width: 20vw;
+  border-radius: 5px;
+}
+
+.u-padding__left__right {
+  padding: 0 20px;
+}
 /*# sourceMappingURL=hambuger.css.map */
