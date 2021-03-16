@@ -1,8 +1,8 @@
 .c-button {
-  background-color: burlywood;
+  background-color:#f2ede9;
   border: 1px solid #707070;
-  height: 18px;
-  width: 7vw;
+  height: 18px;  /* xdのサンプルから固定とし,h2の文字の高さに合わせた */
+  width: 54px;   /* xdのサンプルから固定としたHeightの3倍とした*/
   border-radius: 5px;
 }
 
