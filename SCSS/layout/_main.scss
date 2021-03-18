@@ -1,5 +1,14 @@
-.l-article {
-  height: 87vh;
-  width: 80vw;
-  background-color: yellow
+.l-main {
+  display: flex;
+}
+
+
+.l-aside {
+  width: 20vw;
+  background-color: #f2ede9;
+}
+
+.l-footer {
+  height: 5vh;
+  background-color: #9d8670;
 }

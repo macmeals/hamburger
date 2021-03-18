@@ -7,7 +7,7 @@
 
     &__top {
       height: 8vh;  // 高さはheaderと同じ高さ100％
-      width: 80%; //headerの80%
+      width: 80vw; //headerの80%
       display: flex;
       justify-content: space-between;
       background-color: #FFF7EF;
@@ -16,7 +16,7 @@
     }
     &__bottom {
       height: 8vh;  // 高さはheaderと同じ高さ100％
-      width: 20%; //headerの20%
+      width: 20vw; //headerの20%
       display: flex;
       align-items: center;
       background-color: #f2ede9;

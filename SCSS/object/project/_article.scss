@@ -1,0 +1,18 @@
+.p-article {
+  height: 87vh;
+  width: 80vw;
+  background-color: yellow;
+   
+    &__top {
+      height: 18vh;
+      background-image: url(/img/front-top.png) ;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+    
+
+}
