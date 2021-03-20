@@ -1,0 +1,26 @@
+.l-header {
+  height: 8vh;
+  width: 100vw;
+  background-color:#FFF7EF;
+  display: flex;
+  align-items: center;
+
+    &__top {
+      height: 8vh;  // 高さはheaderと同じ高さ100％
+      width: 80vw; //headerの80%
+      display: flex;
+      justify-content: space-between;
+      background-color: #FFF7EF;
+      align-items: center;
+      
+    }
+    &__bottom {
+      height: 8vh;  // 高さはheaderと同じ高さ100％
+      width: 20vw; //headerの20%
+      display: flex;
+      align-items: center;
+      background-color: #f2ede9;
+      
+    }
+    
+}
