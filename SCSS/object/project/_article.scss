@@ -1,18 +1,103 @@
 .p-article {
   height: 87vh;
   width: 80vw;
-  background-color: yellow;
    
     &__top {
       height: 18vh;
-      background-image: url(/img/front-top.png) ;
-      background-size: cover;
-      background-position: center;
+      @include background(url(/img/front-top.png))  ;
       color: white;
       display: flex;
       align-items: center;
     }
 
+    &__middle {
+      display: flex;
+      height: 47vh;
+      justify-content: center;
+      align-items: center;
     
+    }
 
+    &__wrap1 {
+      @include front-page__wrap(url(/img/front-takeout.png));
+
+      > h2 {
+        margin: 20px 10px;
+        color: white;
+        font-size: 30px;
+        position: relative;
+      }
+
+      >h2:before {
+        @include white-line(-50%) ;
+      }
+    }
+    
+    &__wrap2 {
+      @include front-page__wrap(url(/img/front-eat-in.png));
+
+      >h2 {
+        margin: 20px 10px;
+        color: white;
+        font-size: 30px;
+        position: relative;
+      }
+
+      >h2:before {
+        @include white-line(-50%);
+      }
+
+    }
+
+    &__box {
+      background-color:rgba(255,255,255,0.8);
+      background-blend-mode:lighten;
+      margin: 10px;
+      padding: 10px;
+      >h3 {
+        margin: 5px 0;
+      }
+    }
+
+    &__bottom {
+      @include background(url(/img/front-map.png))  ;
+      z-index: 1;
+      height: 22vh;
+    }
+
+    &__black__boxs {
+      height: 22vh;
+      background-color:rgba(0, 0, 0, 0.4);
+    }
+
+    &__black__box {
+      color: white;
+      height: 22vh;
+      width: 50vw;
+      background-color:rgba(0, 0, 0, 0.6);
+      padding: 40px ;
+      
+
+      >h3 {
+        margin-bottom: 40px;
+        position: relative;
+      }
+
+      >h3:before{
+        @include white-line(-100%) ;
+      }
+
+    }
+}
+
+.p-aside {
+    &__main {
+      list-style: none;
+    }
+
+    &__sub {
+      list-style: none;
+      line-height: 30px;
+      margin: 10px;
+    }
 }
