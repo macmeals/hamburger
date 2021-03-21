@@ -66,11 +66,9 @@
     &__bottom {
       @include background(url(/img/front-map.png))  ;
       z-index: 1;
-      // height: 22vh;
     }
 
     &__black__boxs {
-      // height: 22vh;
       background-color:rgba(0, 0, 0, 0.4);
     }
 
@@ -97,6 +95,7 @@
 .p-aside {
     &__main {
       list-style: none;
+      height: 1390px;
     }
 
     &__sub {
