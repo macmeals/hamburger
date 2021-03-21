@@ -568,7 +568,7 @@ input {
 }
 
 .p-footer {
-  height: 5vh;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
