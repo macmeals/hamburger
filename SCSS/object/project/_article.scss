@@ -12,14 +12,15 @@
 
     &__middle {
       display: flex;
-      // height: 47vh;
       justify-content: center;
       align-items: center;
+      padding: 60px 40px;
     
     }
 
     &__wrap1 {
       @include front-page__wrap(url(/img/front-takeout.png));
+      margin-right: 20px;
 
       > h2 {
         margin: 20px 10px;
@@ -36,6 +37,7 @@
     
     &__wrap2 {
       @include front-page__wrap(url(/img/front-eat-in.png));
+      margin-left: 20px;
 
       >h2 {
         margin: 20px 10px;
@@ -100,6 +102,6 @@
     &__sub {
       list-style: none;
       line-height: 30px;
-      margin: 10px;
+      padding:  10px;
     }
 }

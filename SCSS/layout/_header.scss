@@ -1,12 +1,9 @@
 .l-header {
-  height: 60px;
-  width: 100vw;
   background-color:#FFF7EF;
   display: flex;
   align-items: center;
 
     &__top {
-     
       width: 80vw; //headerの80%
       display: flex;
       justify-content: space-between;

@@ -335,8 +335,6 @@ input {
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
 .l-header {
-  height: 60px;
-  width: 100vw;
   background-color: #FFF7EF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,7 +383,6 @@ input {
 }
 
 .l-footer {
-  height: 5vh;
   background-color: #9d8670;
   color: white;
   -webkit-box-sizing: border-box;
@@ -439,6 +436,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 60px 40px;
 }
 
 .p-article__wrap1 {
@@ -457,6 +455,7 @@ input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 20px;
 }
 
 .p-article__wrap1 > h2 {
@@ -492,6 +491,7 @@ input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: 20px;
 }
 
 .p-article__wrap2 > h2 {
@@ -565,7 +565,7 @@ input {
 .p-aside__sub {
   list-style: none;
   line-height: 30px;
-  margin: 10px;
+  padding: 10px;
 }
 
 .p-footer {
