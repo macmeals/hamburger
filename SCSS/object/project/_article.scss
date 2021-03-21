@@ -66,17 +66,17 @@
     &__bottom {
       @include background(url(/img/front-map.png))  ;
       z-index: 1;
-      height: 22vh;
+      // height: 22vh;
     }
 
     &__black__boxs {
-      height: 22vh;
+      // height: 22vh;
       background-color:rgba(0, 0, 0, 0.4);
     }
 
     &__black__box {
       color: white;
-      height: 22vh;
+      height: 330px;
       width: 50vw;
       background-color:rgba(0, 0, 0, 0.6);
       padding: 40px ;
