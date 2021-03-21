@@ -34,7 +34,7 @@ $smartphone:699px;  /* スマホはWidthが700pxより小さい */
  
 //front-pageの「Take Out」と「Eat in」
 @mixin front-page__wrap($picture) {
-  height: 40vh;
+  height:640px;
   width: 32vw;
   background-image:($picture) ;
   background-size: cover;

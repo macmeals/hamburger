@@ -416,7 +416,7 @@ input {
 }
 
 .p-article__top {
-  height: 18vh;
+  height: 300px;
   background-image: url(/img/front-top.png);
   background-size: cover;
   background-position: center;
@@ -433,7 +433,6 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 47vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -443,7 +442,7 @@ input {
 }
 
 .p-article__wrap1 {
-  height: 40vh;
+  height: 640px;
   width: 32vw;
   background-image: url(/img/front-takeout.png);
   background-size: cover;
@@ -478,7 +477,7 @@ input {
 }
 
 .p-article__wrap2 {
-  height: 40vh;
+  height: 640px;
   width: 32vw;
   background-image: url(/img/front-eat-in.png);
   background-size: cover;
