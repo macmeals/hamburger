@@ -335,7 +335,7 @@ input {
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
 .l-header {
-  height: 8vh;
+  height: 60px;
   width: 100vw;
   background-color: #FFF7EF;
   display: -webkit-box;
@@ -347,7 +347,6 @@ input {
 }
 
 .l-header__top {
-  height: 8vh;
   width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,7 +361,7 @@ input {
 }
 
 .l-header__bottom {
-  height: 8vh;
+  height: 60px;
   width: 20vw;
   display: -webkit-box;
   display: -ms-flexbox;

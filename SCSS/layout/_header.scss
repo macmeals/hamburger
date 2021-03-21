@@ -1,12 +1,13 @@
 .l-header {
-  height: 8vh;
+  height: 60px;
+
   width: 100vw;
   background-color:#FFF7EF;
   display: flex;
   align-items: center;
 
     &__top {
-      height: 8vh;  // 高さはheaderと同じ高さ100％
+     
       width: 80vw; //headerの80%
       display: flex;
       justify-content: space-between;
@@ -15,7 +16,7 @@
       
     }
     &__bottom {
-      height: 8vh;  // 高さはheaderと同じ高さ100％
+      height: 60px;
       width: 20vw; //headerの20%
       display: flex;
       align-items: center;
