@@ -675,6 +675,13 @@ input {
           align-items: center;
 }
 
+@media (max-width: 1200px) {
+  .p-footer {
+    font-size: 16px;
+    height: 100px;
+  }
+}
+
 .u-margin__left__right {
   margin: 0 20px;
 }
