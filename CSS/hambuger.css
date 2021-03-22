@@ -393,7 +393,7 @@ input {
 
 @media (max-width: 1200px) {
   .l-header__bottom {
-    background-color: red;
+    background-color: #FFF7EF;
     height: 100px;
     width: 20vw;
     position: absolute;
