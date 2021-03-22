@@ -1,5 +1,10 @@
 .p-article {
   width: 80vw;
+  
+  // iPad対応 frontpage
+   @include tablet {
+   width: 100vw;
+  }
    
     &__top {
       height: 300px;
@@ -20,6 +25,11 @@
     &__wrap1 {
       @include front-page__wrap(url(/img/front-takeout.png));
       margin-right: 20px;
+      // iPad対応 front page
+      @include tablet {
+       width: 40vw;
+       }
+
 
       > h2 {
         margin: 20px 10px;
@@ -37,6 +47,10 @@
     &__wrap2 {
       @include front-page__wrap(url(/img/front-eat-in.png));
       margin-left: 20px;
+      // iPad対応 frontpage
+      @include tablet {
+        width: 40vw;
+        }
 
       >h2 {
         margin: 20px 10px;
@@ -77,15 +91,35 @@
       width: 50vw;
       background-color:rgba(0, 0, 0, 0.6);
       padding: 40px ;
+      // iPad対応 frontpage
+      @include tablet {
+        width: 100vw;
+      }
       
 
       >h3 {
         margin-bottom: 40px;
         position: relative;
+         // iPad対応 frontpage
+        @include tablet {
+        font-size: 24px;
+        }
       }
 
       >h3:before{
         @include white-line(-100%) ;
+        // iPad対応 frontpage
+        @include tablet {
+        bottom: -50%;
+       }
+      }
+
+       // iPad対応 frontpage
+      @include tablet{
+      >p { line-height: 3rem;
+
+      }
+
       }
 
     }

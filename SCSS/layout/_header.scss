@@ -12,7 +12,7 @@
       background-color: #FFF7EF;
       align-items: center;
 
-      @include tablet {
+      @include tablet { /* ipad対応fronts page */
          height: 100px;
          width: 100vw;
          display: flex;
@@ -30,7 +30,7 @@
       align-items: center;
       background-color: #f2ede9;
 
-      @include tablet {
+      @include tablet {  /* ipad対応fronts page */
         background-color:#FFF7EF;
         height: 100px;
         width: 20vw;
