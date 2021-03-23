@@ -450,6 +450,38 @@ input {
   border-radius: 5px;
 }
 
+@media (max-width: 1200px) {
+  .c-hamburgermenu {
+    display: none;
+  }
+}
+
+.c-hamburgerbutton {
+  font-size: 18px;
+  color: red;
+  position: relative;
+}
+
+@media (min-width: 1201px) {
+  .c-hamburgerbutton {
+    display: none;
+  }
+}
+
+.c-hamburgerbutton.is_open::before, .c-hamburgerbutton.is_open::after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: red;
+  position: absolute;
+  left: calc( 50% - ( 60px / 2 ));
+  display: block;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
 .c-window {
   background-color: white;
   border: 1px solid #707070;
