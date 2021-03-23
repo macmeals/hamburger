@@ -20,20 +20,36 @@
     display: none;
   }
   font-size: 18px;  
-  color: red; 
+  color: #707070; 
   position: relative; 
+  background-color: #FFF7EF;
+  height: 50px;
+  width: 50px;
 
-  &.is_open::before, &.is_open::after {
+  &.is-open {
+    color: #FFF7EF;
+
+    &::before, &::after {
     content   : "";
-		width     : 30px;
-		height    : 1px;
-		background:red;
+		width     : 40px;
+		height    : 4px;
+		background:#707070;
 		position  : absolute;
-		left      : calc( 50% - ( 60px / 2 ) );
+		left      : 5px;
 		display   : block;
-    transition: transform 0.2s;
-  }
-   
-  &.is_open::before
+    transition: transform 0.6s;
+    }
+    &::before {
+      top: 25px;
+      transform: rotate( 45deg );
+    }
+    &::after {
+      top: 25px;
+      transform: rotate( -45deg );  
+    }
 
+  }
+
+  
+  
 }
