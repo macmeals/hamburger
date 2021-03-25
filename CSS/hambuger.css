@@ -327,6 +327,17 @@ body {
   color: #707070;
 }
 
+body.is-open {
+  display: block;
+  background-color: #707070;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
 input {
   font-family: FontAwesome;
 }
@@ -417,6 +428,10 @@ button {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .l-header__bottom.is-open {
+    width: 40vw;
+    left: 60%;
+  }
 }
 
 .l-main {
@@ -437,6 +452,15 @@ button {
     /* ハンバーガーメニューの実装の為、基本的には隠す */
     position: absolute;
     left: 100%;
+  }
+  .l-aside.is-open {
+    -webkit-transition: .6s;
+    transition: .6s;
+    left: 60%;
+    width: 40vw;
+    z-index: 200;
+    /* 背景の灰色より前に出す */
+    background-color: #FFF7EF;
   }
 }
 
@@ -479,6 +503,7 @@ button {
 }
 
 .c-hamburgerbutton.is-open {
+  background-color: #FFF7EF;
   color: #FFF7EF;
 }
 
@@ -488,22 +513,17 @@ button {
   height: 4px;
   background: #707070;
   position: absolute;
+  top: 25px;
   left: 5px;
   display: block;
-  -webkit-transition: -webkit-transform 0.6s;
-  transition: -webkit-transform 0.6s;
-  transition: transform 0.6s;
-  transition: transform 0.6s, -webkit-transform 0.6s;
 }
 
 .c-hamburgerbutton.is-open::before {
-  top: 25px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
 .c-hamburgerbutton.is-open::after {
-  top: 25px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }

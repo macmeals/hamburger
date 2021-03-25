@@ -5,6 +5,22 @@ html {
 body {
   font-family: 'Roboto','M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) Regular', sans-serif; /* RobotoとM＋フォントを利用 */
   color: #707070;
+
+  // ハンバーガーメニュが開いた際、背景を全て灰色にする
+  &.is-open {
+    display: block;
+     background-color: #707070;
+     position: fixed;
+     top : 0%;
+     left: 0%;
+     width : 100vw;
+     height: 100vh;
+     z-index: 100;
+
+
+
+
+    }
 }
 
 input {
