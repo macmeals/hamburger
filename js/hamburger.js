@@ -1,10 +1,13 @@
 jQuery( function( $ ) {
 	$( ".is-hamburger" ).on( "click", function() {
 		$( this ).toggleClass( "is-open" );
+		$( ".l-header" ).toggleClass( "is-open" );
+		// ハンバーガーボタンの不要なpaddingを消し（u-padding__left__right）、is-openをつける
+		$( ".l-header__bottom" ).toggleClass( "is-open u-padding__left__right" );
+		// $( ".l-main" ).toggleClass( "is-open" );
 		$( ".l-aside" ).toggleClass( "is-open" );
 		$( ".p-aside__sub" ).toggleClass( "is-open" );
-		$( "body" ).toggleClass( "is-open" );
-    // ハンバーガーボタンの不要なpaddingを消し（u-padding__left__right）、is-openをつける
-		$( ".l-header__bottom" ).toggleClass( "is-open u-padding__left__right" );
+		$( ".l-footer" ).toggleClass( "is-open" );
+		$( ".c-grayscreen" ).toggleClass( "is-open" );
 	} );
 } );

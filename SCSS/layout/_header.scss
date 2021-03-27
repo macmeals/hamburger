@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  
 
     &__top {
       height: 60px;
@@ -20,6 +21,7 @@
          justify-content: space-around;
          align-items: center;
 
+
       }
     }
 
@@ -30,6 +32,7 @@
       align-items: center;
       background-color: #f2ede9;
 
+
       @include tablet {  /* ipad対応fronts page */
         background-color:#FFF7EF;
         height: 100px;
@@ -39,11 +42,15 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
+       
       
         &.is-open {
           width: 40vw;
           left: 60%;
-
+          position: fixed;
+          z-index: 200;
+          transition:.6s;
+          
         }
 
       }
@@ -51,4 +58,18 @@
       
     }
     
+}
+
+.l-black {
+   &.is-open {
+     display: block;
+     background-color: #707070;
+     position: fixed;
+     top : 0%;
+     left: 0%;
+     width : 100vw;
+     height: 60px;
+     z-index: 100;
+     opacity: 0;
+  }
 }

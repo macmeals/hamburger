@@ -55,3 +55,16 @@ $smartphone:699px;  /* スマホはWidthが700pxより小さい */
   height: 1px;
   background-color: white;
  }
+
+ //サイトバーを開いた時、灰色の背景を表示
+ @mixin grayscreen {
+  display: block;
+  background-color: #707070;
+  position: fixed;
+  top : 0%;
+  left: 0%;
+  width : 100vw;
+  height: 100vh;
+  z-index: 100;
+  opacity: 1;
+ }
