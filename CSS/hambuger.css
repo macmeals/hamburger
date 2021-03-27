@@ -417,6 +417,26 @@ button {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .l-header__bottom.is-open {
+    width: 40vw;
+    left: 60%;
+    position: fixed;
+    z-index: 200;
+    -webkit-transition: .6s;
+    transition: .6s;
+  }
+}
+
+.l-black.is-open {
+  display: block;
+  background-color: #707070;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 60px;
+  z-index: 100;
+  opacity: 0;
 }
 
 .l-main {
@@ -438,6 +458,17 @@ button {
     position: absolute;
     left: 100%;
   }
+  .l-aside.is-open {
+    position: fixed;
+    -webkit-transition: .6s;
+    transition: .6s;
+    left: 60%;
+    width: 40vw;
+    z-index: 200;
+    /* 背景の灰色より前に出す */
+    background-color: #FFF7EF;
+    opacity: 1;
+  }
 }
 
 .l-footer {
@@ -445,6 +476,10 @@ button {
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.l-footer.is-open {
+  display: none;
 }
 
 .c-button {
@@ -479,6 +514,7 @@ button {
 }
 
 .c-hamburgerbutton.is-open {
+  background-color: #FFF7EF;
   color: #FFF7EF;
 }
 
@@ -488,24 +524,33 @@ button {
   height: 4px;
   background: #707070;
   position: absolute;
+  top: 25px;
   left: 5px;
   display: block;
-  -webkit-transition: -webkit-transform 0.6s;
-  transition: -webkit-transform 0.6s;
-  transition: transform 0.6s;
-  transition: transform 0.6s, -webkit-transform 0.6s;
 }
 
 .c-hamburgerbutton.is-open::before {
-  top: 25px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
 .c-hamburgerbutton.is-open::after {
-  top: 25px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+@media (max-width: 1200px) {
+  .c-grayscreen.is-open {
+    display: block;
+    background-color: #707070;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    opacity: 1;
+  }
 }
 
 .c-window {
