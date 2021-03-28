@@ -463,6 +463,7 @@ button {
     -webkit-transition: .6s;
     transition: .6s;
     left: 60%;
+    height: 100%;
     width: 40vw;
     z-index: 200;
     /* 背景の灰色より前に出す */
