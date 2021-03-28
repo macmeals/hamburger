@@ -459,7 +459,6 @@ button {
     left: 100%;
   }
   .l-aside.is-open {
-    position: fixed;
     -webkit-transition: .6s;
     transition: .6s;
     left: 60%;
