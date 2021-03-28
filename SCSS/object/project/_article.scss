@@ -19,6 +19,10 @@
       justify-content: center;
       align-items: center;
       padding: 60px 40px;
+      // smartphone対応 front page
+       @include smartphone {
+        flex-direction: column;
+        padding: 0; } /* スマホ画面はパディングリセット */
     
     }
 
@@ -29,7 +33,11 @@
       @include tablet {
        width: 40vw;
        }
-
+      // iPhone対応 front page
+      @include smartphone {
+       width: 80vw;
+       margin: 10px 0px;
+      }
 
       > h2 {
         margin: 20px 10px;
@@ -51,6 +59,13 @@
       @include tablet {
         width: 40vw;
         }
+      
+      // iPhone対応 front page
+      @include smartphone {
+        width: 80vw;
+        margin: 10px 0px;
+        }
+      
 
       >h2 {
         margin: 20px 10px;
@@ -79,10 +94,14 @@
     &__bottom {
       @include background(url(/img/front-map.png))  ;
       z-index: 1;
+    
     }
 
     &__black__boxs {
       background-color:rgba(0, 0, 0, 0.4);
+      @include smartphone {
+        height: 640px;
+        }
     }
 
     &__black__box {
@@ -119,6 +138,10 @@
       >p { line-height: 3rem;
          }
       }
+      @include smartphone{
+        >p { line-height: 1.5rem;
+           }
+        }
     }
 }
 

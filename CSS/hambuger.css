@@ -325,6 +325,7 @@ body {
   font-family: 'Roboto','M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) Regular', sans-serif;
   /* RobotoとM＋フォントを利用 */
   color: #707070;
+  overflow-x: hidden;
 }
 
 input {
@@ -595,6 +596,17 @@ button {
       -ms-flex-align: center;
           align-items: center;
   padding: 60px 40px;
+  /* スマホ画面はパディングリセット */
+}
+
+@media (max-width: 699px) {
+  .p-article__middle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
 }
 
 .p-article__wrap1 {
@@ -619,6 +631,13 @@ button {
 @media (max-width: 1200px) {
   .p-article__wrap1 {
     width: 40vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-article__wrap1 {
+    width: 80vw;
+    margin: 10px 0px;
   }
 }
 
@@ -664,6 +683,13 @@ button {
   }
 }
 
+@media (max-width: 699px) {
+  .p-article__wrap2 {
+    width: 80vw;
+    margin: 10px 0px;
+  }
+}
+
 .p-article__wrap2 > h2 {
   margin: 20px 10px;
   color: white;
@@ -701,6 +727,12 @@ button {
 
 .p-article__black__boxs {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 699px) {
+  .p-article__black__boxs {
+    height: 640px;
+  }
 }
 
 .p-article__black__box {
@@ -747,6 +779,12 @@ button {
 @media (max-width: 1200px) {
   .p-article__black__box > p {
     line-height: 3rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-article__black__box > p {
+    line-height: 1.5rem;
   }
 }
 

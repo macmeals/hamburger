@@ -2,6 +2,7 @@
   display: flex;
   position: relative;
 
+
 }
 
 .l-aside {
@@ -18,7 +19,7 @@
     &.is-open {
     transition:.6s;
     left:60%;
-    
+    // position: fixed;
     width: 40vw;
     z-index: 200; /* 背景の灰色より前に出す */
     background-color: #FFF7EF;
