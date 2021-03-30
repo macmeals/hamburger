@@ -50,11 +50,15 @@
 
  </main>
 
- <footer class="l-footer">
+ <!-- footer部分の読み込み -->
+
+ <?php include('footer.php'); ?>
+
+ <!-- <footer class="l-footer">
    <div class ="p-footer">
      <p>ショップ情報｜ヒストリー</p>
      <p><small>Copyright RaiseTech</small></p>
    </div>
  </footer>
  </body>
-</html>
+</html> -->
