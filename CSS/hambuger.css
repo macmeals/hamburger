@@ -354,7 +354,7 @@ button {
 }
 
 .l-header__top {
-  height: 60px;
+  height: 80px;
   width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,7 +389,7 @@ button {
 }
 
 .l-header__bottom {
-  height: 60px;
+  height: 80px;
   width: 20vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,6 +538,10 @@ button {
 .c-hamburgerbutton.is-open::after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+.c-circlebutton {
+  background-color: yellowgreen;
 }
 
 @media (max-width: 1200px) {
@@ -798,6 +802,34 @@ button {
   list-style: none;
   line-height: 30px;
   padding: 10px;
+}
+
+.p-archive {
+  width: 80vw;
+  height: 80px;
+  background-image: url(/img/front-top.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.p-archive__top {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.p-archive__text {
+  background-color: yellow;
+  padding: 40px;
+}
+
+.p-archive__text > h3 {
+  margin-bottom: 20px;
 }
 
 .p-footer {
