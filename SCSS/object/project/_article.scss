@@ -157,3 +157,104 @@
       padding:  10px;
     }
 }
+
+////////////////archive.php//
+.p-archive {
+  width: 80vw;
+
+  // iPad対応 frontpage
+  @include tablet {
+    width: 100vw;
+   }
+     &__top {
+      @include background(url(/img/front-top.png))  ;
+      height: 80px;
+     }
+
+     &__menu {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      color:#FFFFFF;
+     }
+
+     &__textall {
+      display: flex;
+      justify-content: center;
+     }
+
+     &__text { 
+       display: block;
+       width: 70vw;
+       height: 200px;
+      //  padding: 40px 0;
+       > h3 {
+         margin: 20px 0;
+       }
+     }
+
+     &__boxes {
+       display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+     }
+
+     &__box1 {
+      @include background(url(/img/Cheeseburger.png))  ;
+      height: 300px;
+      width: 35vw;
+     }
+
+     &__box2 {
+      background-color: #3c2b1C ;
+      height: 300px;
+      width: 35vw;
+      position: relative;
+     
+      
+      >h2 {
+        padding: 40px;
+      }
+      >h3 {
+        padding: 0 40px;
+      }
+      >p {
+        padding: 5px 40px;
+      }
+  
+     }
+
+}
+
+.p-pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px ;
+   height: 20px;
+   list-style: none;
+   text-align: center;
+    
+   &__arrow {
+     margin: 0 10px;
+     font-size: 20px;
+     height: 20px;
+   }
+
+   &__link {
+    margin: 0 5px;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    padding-top: 3px ;
+   
+
+  }
+
+  > .p-pagination__link:nth-of-type(3){
+    background-color:#3c2b1C;
+    color: #FFFFFF;
+    
+  }
+
+}
