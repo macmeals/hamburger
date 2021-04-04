@@ -53,5 +53,11 @@
 }
 
 .c-circlebutton {
-  background-color: yellowgreen;
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: calc(50% - 75px) ;
+  margin-top: 40px;
+  border-radius: 20px;
 }
