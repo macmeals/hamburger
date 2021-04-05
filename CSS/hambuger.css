@@ -339,6 +339,10 @@ button {
   /* クリックしたときに表示される枠線を消す */
 }
 
+li {
+  list-style: none;
+}
+
 /* PCはWidthが1200pxより大きい */
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
@@ -849,6 +853,13 @@ button {
   }
 }
 
+@media (max-width: 699px) {
+  .p-archive__menu {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
 .p-archive__textall {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -871,6 +882,13 @@ button {
   }
 }
 
+@media (max-width: 699px) {
+  .p-archive__text {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+}
+
 .p-archive__text > h3 {
   margin: 20px 0;
 }
@@ -883,6 +901,18 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
+}
+
+@media (max-width: 699px) {
+  .p-archive__boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .p-archive__box1 {
@@ -899,6 +929,12 @@ button {
   }
 }
 
+@media (max-width: 699px) {
+  .p-archive__box1 {
+    width: 90vw;
+  }
+}
+
 .p-archive__box2 {
   background-color: #3c2b1C;
   height: 300px;
@@ -909,6 +945,12 @@ button {
 @media (max-width: 1200px) {
   .p-archive__box2 {
     width: 45vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-archive__box2 {
+    width: 90vw;
   }
 }
 
@@ -934,16 +976,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 100px;
+  margin: 70px 0 30px 0;
   height: 20px;
-  list-style: none;
   text-align: center;
-}
-
-@media (max-width: 1200px) {
-  .p-pagination {
-    margin: 70px 0 30px 0;
-  }
 }
 
 .p-pagination__arrow {
@@ -963,6 +998,30 @@ button {
 .p-pagination > .p-pagination__link:nth-of-type(3) {
   background-color: #3c2b1C;
   color: #FFFFFF;
+}
+
+@media (min-width: 1201px) {
+  .p-pagination2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .p-pagination2 {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-pagination2 {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .p-footer {

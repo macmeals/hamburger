@@ -188,11 +188,19 @@
          height:150px;
        }
 
+       // iPhone対応 
+       @include smartphone {
+        display: table-cell;
+        vertical-align: middle;
+        
+       }
+
      }
 
      &__textall {
       display: flex;
       justify-content: center;
+
      }
 
      &__text { 
@@ -206,6 +214,12 @@
         height: 170px;
        }
 
+       // iPhone対応 
+       @include smartphone {
+        width: 90vw;
+        margin-bottom: 20px;
+       }
+
        > h3 {
          margin: 20px 0;
        }
@@ -215,6 +229,13 @@
        display: flex;
        justify-content: center;
        margin-bottom: 20px;
+
+       @include smartphone {
+        flex-direction: column;
+        align-items: center;
+         
+       }
+
      }
 
      &__box1 {
@@ -226,6 +247,12 @@
       @include tablet {
         width: 45vw;
        }
+      
+       // iPhone対応
+      @include smartphone {
+        width: 90vw;
+      }
+      
 
      }
 
@@ -236,11 +263,15 @@
       position: relative;
 
        // iPad対応 
-       @include tablet {
-        width: 45vw;
-       }
-     
-      
+      @include tablet {
+      width: 45vw;
+      }
+
+      // iPhone対応
+      @include smartphone {
+      width: 90vw;
+      }
+
       >h2 {
         padding: 40px;
       }
@@ -259,17 +290,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 100px ;
+   margin: 70px 0 30px 0;
    height: 20px;
-   list-style: none;
    text-align: center;
-
-     // iPad対応 
-     @include tablet {
-      margin: 70px 0 30px 0;
-     }
-
-
     
    &__arrow {
      margin: 0 10px;
@@ -293,4 +316,19 @@
     
   }
 
+}
+
+.p-pagination2 {
+  @include pc {
+    display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include smartphone {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  
 }

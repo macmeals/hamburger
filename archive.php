@@ -62,7 +62,11 @@
            <li class="p-pagination__link">9</li> 
            <li class="p-pagination__arrow">»</li>
        </ul>
-      
+       <!-- スマートフォン向けのページネーション -->
+        <ul class="p-pagination2">
+           <li>«次へ</li>
+           <li>»前へ</li>
+        </ul>
     </article>
 
     <!-- sidebar部分の読み込み -->
@@ -72,4 +76,4 @@
 
  <!-- footer部分の読み込み -->
 
- <?php include('footer.php'); ?>
+ <?php include ('footer.php'); ?>
