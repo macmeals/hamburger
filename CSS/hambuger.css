@@ -885,6 +885,7 @@ li {
 @media (max-width: 699px) {
   .p-archive__text {
     width: 90vw;
+    height: 250px;
     margin-bottom: 20px;
   }
 }
@@ -981,6 +982,12 @@ li {
   text-align: center;
 }
 
+@media (max-width: 699px) {
+  .p-pagination {
+    display: none;
+  }
+}
+
 .p-pagination__arrow {
   margin: 0 10px;
   font-size: 20px;
@@ -1018,9 +1025,10 @@ li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 30px;
   }
 }
 
