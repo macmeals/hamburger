@@ -339,6 +339,10 @@ button {
   /* クリックしたときに表示される枠線を消す */
 }
 
+li {
+  list-style: none;
+}
+
 /* PCはWidthが1200pxより大きい */
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
@@ -801,7 +805,6 @@ button {
 
 .p-aside__main {
   list-style: none;
-  height: 1390px;
 }
 
 .p-aside__sub {
@@ -827,6 +830,12 @@ button {
   height: 80px;
 }
 
+@media (max-width: 1200px) {
+  .p-archive__top {
+    height: 150px;
+  }
+}
+
 .p-archive__menu {
   height: 80px;
   display: -webkit-box;
@@ -836,6 +845,19 @@ button {
       -ms-flex-align: center;
           align-items: center;
   color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .p-archive__menu {
+    height: 150px;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-archive__menu {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 .p-archive__textall {
@@ -853,6 +875,21 @@ button {
   height: 200px;
 }
 
+@media (max-width: 1200px) {
+  .p-archive__text {
+    width: 90vw;
+    height: 170px;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-archive__text {
+    width: 90vw;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+}
+
 .p-archive__text > h3 {
   margin: 20px 0;
 }
@@ -867,6 +904,18 @@ button {
   margin-bottom: 20px;
 }
 
+@media (max-width: 699px) {
+  .p-archive__boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .p-archive__box1 {
   background-image: url(/img/Cheeseburger.png);
   background-size: cover;
@@ -875,11 +924,35 @@ button {
   width: 35vw;
 }
 
+@media (max-width: 1200px) {
+  .p-archive__box1 {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-archive__box1 {
+    width: 90vw;
+  }
+}
+
 .p-archive__box2 {
   background-color: #3c2b1C;
   height: 300px;
   width: 35vw;
   position: relative;
+}
+
+@media (max-width: 1200px) {
+  .p-archive__box2 {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-archive__box2 {
+    width: 90vw;
+  }
 }
 
 .p-archive__box2 > h2 {
@@ -904,10 +977,15 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 100px;
+  margin: 70px 0 30px 0;
   height: 20px;
-  list-style: none;
   text-align: center;
+}
+
+@media (max-width: 699px) {
+  .p-pagination {
+    display: none;
+  }
 }
 
 .p-pagination__arrow {
@@ -927,6 +1005,31 @@ button {
 .p-pagination > .p-pagination__link:nth-of-type(3) {
   background-color: #3c2b1C;
   color: #FFFFFF;
+}
+
+@media (min-width: 1201px) {
+  .p-pagination2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .p-pagination2 {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-pagination2 {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 30px;
+  }
 }
 
 .p-footer {

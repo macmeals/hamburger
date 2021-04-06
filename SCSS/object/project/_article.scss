@@ -148,7 +148,7 @@
 .p-aside {
     &__main {
       list-style: none;
-      height: 1390px;
+      // height: 1390px;
     }
 
     &__sub {
@@ -162,32 +162,65 @@
 .p-archive {
   width: 80vw;
 
-  // iPad対応 frontpage
+  // iPad対応 
   @include tablet {
     width: 100vw;
    }
+
      &__top {
-      @include background(url(/img/front-top.png))  ;
-      height: 80px;
+       @include background(url(/img/front-top.png))  ;
+        height: 80px;
+
+       // iPad対応 
+       @include tablet {
+        height:150px;
+       }
      }
 
      &__menu {
-      height: 80px;
-      display: flex;
-      align-items: center;
-      color:#FFFFFF;
+       height: 80px;
+       display: flex;
+       align-items: center;
+       color:#FFFFFF;
+
+       // iPad対応 
+       @include tablet {
+         height:150px;
+       }
+
+       // iPhone対応 
+       @include smartphone {
+        display: table-cell;
+        vertical-align: middle;
+        
+       }
+
      }
 
      &__textall {
       display: flex;
       justify-content: center;
+
      }
 
      &__text { 
        display: block;
        width: 70vw;
        height: 200px;
-      //  padding: 40px 0;
+
+       // iPad対応 
+       @include tablet {
+        width: 90vw;
+        height: 170px;
+       }
+
+       // iPhone対応 
+       @include smartphone {
+        width: 90vw;
+        height: 250px;
+        margin-bottom: 20px;
+       }
+
        > h3 {
          margin: 20px 0;
        }
@@ -197,12 +230,31 @@
        display: flex;
        justify-content: center;
        margin-bottom: 20px;
+
+       @include smartphone {
+        flex-direction: column;
+        align-items: center;
+         
+       }
+
      }
 
      &__box1 {
       @include background(url(/img/Cheeseburger.png))  ;
       height: 300px;
       width: 35vw;
+
+       // iPad対応 
+      @include tablet {
+        width: 45vw;
+       }
+      
+       // iPhone対応
+      @include smartphone {
+        width: 90vw;
+      }
+      
+
      }
 
      &__box2 {
@@ -210,8 +262,17 @@
       height: 300px;
       width: 35vw;
       position: relative;
-     
-      
+
+       // iPad対応 
+      @include tablet {
+      width: 45vw;
+      }
+
+      // iPhone対応
+      @include smartphone {
+      width: 90vw;
+      }
+
       >h2 {
         padding: 40px;
       }
@@ -230,10 +291,13 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 100px ;
+   margin: 70px 0 30px 0;
    height: 20px;
-   list-style: none;
    text-align: center;
+
+   @include smartphone {
+   display: none;
+   }
     
    &__arrow {
      margin: 0 10px;
@@ -257,4 +321,20 @@
     
   }
 
+}
+
+.p-pagination2 {
+  @include pc {
+    display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include smartphone {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
 }

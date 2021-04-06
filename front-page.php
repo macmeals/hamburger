@@ -51,6 +51,6 @@
  </main>
 
  <!-- footer部分の読み込み -->
- <?php include('footer.php'); ?>
+ <?php include ('footer.php'); ?>
 
  
