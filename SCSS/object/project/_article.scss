@@ -52,86 +52,20 @@
 
        >.p-article__wrap:nth-child(2)  {
         @include front-page__wrap(url(/img/front-eat-in.png));
-        margin-left: 20px;
-        // iPad対応 frontpage
+        
+        // // iPad対応 frontpage
         @include tablet {
           width: 40vw;
           }
         
-        // iPhone対応 front page
+        // // iPhone対応 front page
         @include smartphone {
           width: 80vw;
           margin: 10px 0px;
-          }
-        
-  
-        >h2 {
-          margin: 20px 10px;
-          color: white;
-          font-size: 30px;
-          position: relative;
-        }
-  
-        >h2:before {
-          @include white-line(-50%);
-        }
-      }
-  }
+          } 
+       }
+    }
 
-    // &__wrap1 {
-    //   @include front-page__wrap(url(/img/front-takeout.png));
-    //   margin-right: 20px;
-    //   // iPad対応 front page
-    //   @include tablet {
-    //    width: 40vw;
-    //    }
-    //   // iPhone対応 front page
-    //   @include smartphone {
-    //    width: 80vw;
-    //    margin: 10px 0px;
-    //   }
-
-    //   > h2 {
-    //     margin: 20px 10px;
-    //     color: white;
-    //     font-size: 30px;
-    //     position: relative;
-    //   }
-
-    //   >h2:before {
-    //     @include white-line(-50%) ;
-    //   }
-      
-    // }
-    
-    // &__wrap2 {
-    //   @include front-page__wrap(url(/img/front-eat-in.png));
-    //   margin-left: 20px;
-    //   // iPad対応 frontpage
-    //   @include tablet {
-    //     width: 40vw;
-    //     }
-      
-    //   // iPhone対応 front page
-    //   @include smartphone {
-    //     width: 80vw;
-    //     margin: 10px 0px;
-    //     }
-      
-
-    //   >h2 {
-    //     margin: 20px 10px;
-    //     color: white;
-    //     font-size: 30px;
-    //     position: relative;
-    //   }
-
-    //   >h2:before {
-    //     @include white-line(-50%);
-    //   }
-
-
-    // }
 
     &__box {
       background-color:rgba(255,255,255,0.8);
