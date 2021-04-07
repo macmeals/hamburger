@@ -8,7 +8,7 @@
       <h2>ダミーサイト</h2>
     </div>
     <div class="p-article__middle">  <!-- Takeout& Eat inの画像部分 -->
-      <div class="p-article__wrap1">
+      <div class="p-article__wrap">
         <h2>Take Out</h2>
         <div class="p-article__boxs">
           <div class="p-article__box">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="p-article__wrap2 ">
+      <div class="p-article__wrap">
         <h2>Eat In</h2>
         <div class="p-article__boxs">
           <div class="p-article__box">
