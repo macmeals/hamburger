@@ -5,7 +5,7 @@
     <article class="p-archive">
        <div class="p-archive__top">
            <div class="p-archive__menu u-padding__left__right">
-              <h2>Menu:</h2>
+              <h2>Search:</h2>
               <p>チーズバーガー</p>
            </div>
        </div>    
@@ -14,11 +14,11 @@
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
           </div> 
-      </div>
+       </div>
        <div class="p-archive__boxes">
            <div class="p-archive__box1"></div>
            <div class="p-archive__box2">
-              <h2>チーズバーガー</h2>
+              <h2>見出しが入ります</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
               <button class=c-circlebutton>
@@ -29,7 +29,7 @@
        <div class="p-archive__boxes">
            <div class="p-archive__box1"></div>
            <div class="p-archive__box2">
-              <h2>ダブルチーズバーガー</h2>
+              <h2>見出しが入ります</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
               <button class=c-circlebutton>
@@ -40,7 +40,29 @@
        <div class="p-archive__boxes">
            <div class="p-archive__box1"></div>
            <div class="p-archive__box2">
-              <h2>スペシャルチーズバーガー</h2>
+              <h2>見出しが入ります</h2>
+              <h3>小見出しが入ります</h3>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              <button class=c-circlebutton>
+                 詳しく見る
+              </button>
+           </div>
+       </div>
+       <div class="p-archive__boxes">
+           <div class="p-archive__box1"></div>
+           <div class="p-archive__box2">
+              <h2>見出しが入ります</h2>
+              <h3>小見出しが入ります</h3>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              <button class=c-circlebutton>
+                 詳しく見る
+              </button>
+           </div>
+       </div>
+       <div class="p-archive__boxes">
+           <div class="p-archive__box1"></div>
+           <div class="p-archive__box2">
+              <h2>見出しが入ります</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
               <button class=c-circlebutton>
