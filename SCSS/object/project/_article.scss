@@ -144,7 +144,7 @@
     }
 }
 
-////////////////archive.php//
+////////////////archive.php & archive-search.php///////////////////////
 .p-archive {
   width: 80vw;
 
@@ -297,14 +297,11 @@
     width: 20px;
     height: 20px;
     padding-top: 3px ;
-   
-
   }
 
   > .p-pagination__link:nth-of-type(3){
     background-color:#3c2b1C;
     color: #FFFFFF;
-    
   }
 
 }
@@ -323,4 +320,50 @@
     margin: 30px;
   }
   
+}
+
+// Single.php
+.p-single {
+   width: 80vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   &__top {
+    width: 80vw;
+    height: 200px;
+    @include background(url(/img/cheeseburger2.png))  ;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+   >h2,h3,h4,h5,h6 {
+     width: 70vw;
+     margin: 20px 0;
+   }
+
+   >p {
+     width: 70vw;
+     margin: 20px 0;
+   }
+
+   &__quote {
+     width: 70vw;
+     height: 200px;
+     background-color: #f5f5f5;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+
+     >Blockquote {
+       width: 65vw;
+     }
+     >p {
+       width: 65vw;
+     }
+   }
+
+
 }
