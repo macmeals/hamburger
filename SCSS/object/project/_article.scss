@@ -322,7 +322,7 @@
   
 }
 
-// Single.php
+// single.php////////////////////////////////////////////////////
 .p-single {
    width: 80vw;
    display: flex;
@@ -356,12 +356,39 @@
      flex-direction: column;
      align-items: center;
      justify-content: space-around;
+     margin: 20px 0;
 
      >Blockquote {
        width: 65vw;
      }
      >p {
        width: 65vw;
+     }
+   }
+
+   &__photo {
+     width: 70vw;
+     height: 330px;
+     @include background(url(/img/cheesePoteto.png))  ;
+     background-position: bottom;
+     margin: 30px 0;
+   }
+
+   &__phototext {
+     display: flex;
+     margin-bottom: 30px;
+
+     >.p-single__photo{
+      width: 30vw;
+      height: 200px;
+      margin: 0;
+      
+     }
+
+     >P {
+       width: 40vw;
+       height: 200px;
+      
      }
    }
 
