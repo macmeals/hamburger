@@ -1014,6 +1014,100 @@ li {
   }
 }
 
+.p-single {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-single__top {
+  width: 80vw;
+  height: 200px;
+  background-image: url(/img/cheeseburger2.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
+  width: 70vw;
+  margin: 20px 0;
+}
+
+.p-single > p {
+  width: 70vw;
+  margin: 20px 0;
+}
+
+.p-single__quote {
+  width: 70vw;
+  height: 200px;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px 0;
+}
+
+.p-single__quote > Blockquote {
+  width: 65vw;
+}
+
+.p-single__quote > p {
+  width: 65vw;
+}
+
+.p-single__photo {
+  width: 70vw;
+  height: 330px;
+  background-image: url(/img/cheesePoteto.png);
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+  margin: 30px 0;
+}
+
+.p-single__phototext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.p-single__phototext > .p-single__photo {
+  width: 30vw;
+  height: 200px;
+  margin: 0;
+}
+
+.p-single__phototext > P {
+  width: 40vw;
+  height: 200px;
+}
+
 .p-footer {
   height: 60px;
   display: -webkit-box;
