@@ -343,6 +343,14 @@ li {
   list-style: none;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: solid 1px #707070;
+}
+
 /* PCはWidthが1200pxより大きい */
 /* タブレットはWidthが1200pxより小さい */
 /* スマホはWidthが700pxより小さい */
@@ -673,7 +681,7 @@ li {
   background-color: white;
 }
 
-.p-article__middle > .p-article__wrap:nth-child(2) {
+.p-article__middle > .p-article__wrap:nth-of-type(2) {
   height: 640px;
   width: 32vw;
   background-image: url(/img/front-eat-in.png);
@@ -692,13 +700,13 @@ li {
 }
 
 @media (max-width: 1200px) {
-  .p-article__middle > .p-article__wrap:nth-child(2) {
+  .p-article__middle > .p-article__wrap:nth-of-type(2) {
     width: 40vw;
   }
 }
 
 @media (max-width: 699px) {
-  .p-article__middle > .p-article__wrap:nth-child(2) {
+  .p-article__middle > .p-article__wrap:nth-of-type(2) {
     width: 80vw;
     margin: 10px 0px;
   }
@@ -1053,6 +1061,10 @@ li {
   margin: 20px 0;
 }
 
+.p-single > p:nth-of-type(2) {
+  margin: 20px 0 100px 0;
+}
+
 .p-single__quote {
   width: 70vw;
   height: 200px;
@@ -1077,6 +1089,10 @@ li {
 }
 
 .p-single__quote > p {
+  width: 65vw;
+}
+
+.p-single__quote > pre {
   width: 65vw;
 }
 
@@ -1106,6 +1122,73 @@ li {
 .p-single__phototext > P {
   width: 40vw;
   height: 200px;
+}
+
+.p-single > .p-single__photo:nth-of-type(6) {
+  width: 30vw;
+  height: 200px;
+  background-image: url(/img/cheesePoteto.png);
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+  margin: 30px 0;
+}
+
+.p-single__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.p-single__grid > .p-single__photo {
+  width: 23vw;
+  background-image: url(/img/cheesePoteto.png);
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+  margin: 0;
+}
+
+.p-single__list {
+  width: 70vw;
+  margin-top: 30px;
+}
+
+.p-single__sublist {
+  width: 70vw;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.p-single__table {
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.p-single__line > td {
+  padding-left: 30px;
+}
+
+.p-single__line > td:nth-of-type(1) {
+  width: 20vw;
+}
+
+.p-single__line > td:nth-of-type(2) {
+  width: 50vw;
+}
+
+.p-single__button {
+  width: 70vw;
+  margin-bottom: 30px;
+}
+
+.p-single__button > .c-button {
+  width: 20vw;
+  height: 80px;
 }
 
 .p-footer {
@@ -1143,5 +1226,13 @@ li {
   .u-padding__left__right {
     padding: 10px 20px;
   }
+}
+
+.u-padding__left {
+  padding-left: 20px;
+}
+
+.u-padding__right {
+  padding-right: 20px;
 }
 /*# sourceMappingURL=hambuger.css.map */

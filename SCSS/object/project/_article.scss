@@ -50,7 +50,7 @@
         
       }
 
-       >.p-article__wrap:nth-child(2)  {
+       >.p-article__wrap:nth-of-type(2)  {
         @include front-page__wrap(url(/img/front-eat-in.png));
         
         // // iPad対応 frontpage
@@ -346,6 +346,11 @@
    >p {
      width: 70vw;
      margin: 20px 0;
+
+     &:nth-of-type(2) {
+        margin: 20px 0 100px 0;
+     }
+
    }
 
    &__quote {
@@ -362,6 +367,9 @@
        width: 65vw;
      }
      >p {
+       width: 65vw;
+     }
+     >pre {
        width: 65vw;
      }
    }
@@ -392,5 +400,63 @@
      }
    }
 
+   >.p-single__photo:nth-of-type(6) {
+    width: 30vw;
+    height: 200px;
+    @include background(url(/img/cheesePoteto.png))  ;
+    background-position: bottom;
+    margin: 30px 0;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+    >.p-single__photo {
+      width: 23vw;
+      @include background(url(/img/cheesePoteto.png))  ;
+      background-position: bottom;
+      margin: 0;
+    }
+  }
+  &__list {
+      width: 70vw;
+      margin-top: 30px ;
+  }
+  &__sublist {
+      width: 70vw;
+      margin: 5px 0;
+      padding-left: 10px;
+  }
+
+  &__table {
+      height: 280px;
+      margin-bottom: 30px;
+  }
+  
+  &__line {
+      > td { 
+        padding-left: 30px;
+        &:nth-of-type(1){
+          width: 20vw;
+        }
+        &:nth-of-type(2){
+          width: 50vw;
+        }
+      }
+  }
+  &__button {
+      width: 70vw;
+      margin-bottom: 30px;
+      >.c-button {
+          width: 20vw;
+          height: 80px;
+      }
+  }
+
+
 
 }
+
