@@ -329,6 +329,11 @@
    flex-direction: column;
    align-items: center;
 
+   // iPad対応
+   @include tablet {
+    width: 100vw;
+   } 
+
    &__top {
     width: 80vw;
     height: 200px;
@@ -336,19 +341,43 @@
     color: white;
     display: flex;
     align-items: center;
+
+    // iPad対応
+    @include tablet {
+     width: 100vw;
+    } 
+
+
   }
 
    >h2,h3,h4,h5,h6 {
      width: 70vw;
      margin: 20px 0;
+
+     // iPad対応
+     @include tablet {
+      width: 80vw;
+     } 
+
    }
 
    >p {
      width: 70vw;
      margin: 20px 0;
 
+     // iPad対応
+     @include tablet {
+      width: 80vw;
+     }
+
      &:nth-of-type(2) {
         margin: 20px 0 100px 0;
+
+      // iPad対応
+       @include tablet {
+        margin: 40px 0 ;
+       }
+
      }
 
    }
@@ -363,14 +392,35 @@
      justify-content: space-around;
      margin: 20px 0;
 
+     // iPad対応
+     @include tablet {
+      width: 80vw;
+     }
+
      >Blockquote {
        width: 65vw;
+
+       // iPad対応
+       @include tablet {
+        width: 75vw;
+       }
      }
      >p {
        width: 65vw;
+
+       // iPad対応
+       @include tablet {
+        width: 75vw;
+       }
      }
+
      >pre {
        width: 65vw;
+
+       // iPad対応
+       @include tablet {
+        width: 75vw;
+       }
      }
    }
 
@@ -380,6 +430,13 @@
      @include background(url(/img/cheesePoteto.png))  ;
      background-position: bottom;
      margin: 30px 0;
+
+     // iPad対応
+     @include tablet {
+      width: 80vw;
+     }
+
+
    }
 
    &__phototext {
@@ -390,12 +447,22 @@
       width: 30vw;
       height: 200px;
       margin: 0;
-      
+
+      // iPad対応
+      @include tablet {
+        width: 35vw;
+       }
+  
      }
 
      >P {
        width: 40vw;
        height: 200px;
+
+         // iPad対応
+       @include tablet {
+        width: 45vw;
+       }
       
      }
    }
@@ -406,6 +473,15 @@
     @include background(url(/img/cheesePoteto.png))  ;
     background-position: bottom;
     margin: 30px 0;
+
+    // iPad対応
+    @include tablet {
+      width: 70vw;
+      height: 400px;
+      margin-bottom: 200px;
+    }
+
+
   }
 
   &__grid {
@@ -414,11 +490,21 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
 
+    // iPad対応
+    @include tablet {
+      grid-template-columns: 1fr 1fr ;
+    }
+
     >.p-single__photo {
       width: 23vw;
       @include background(url(/img/cheesePoteto.png))  ;
       background-position: bottom;
       margin: 0;
+
+      // iPad対応
+      @include tablet {
+        width: 40vw;
+      }
     }
   }
   &__list {
@@ -434,6 +520,10 @@
   &__table {
       height: 280px;
       margin-bottom: 30px;
+       // iPad対応
+       @include tablet {
+        margin: 20px 0 40px 0;
+       }
   }
   
   &__line {
@@ -441,6 +531,10 @@
         padding-left: 30px;
         &:nth-of-type(1){
           width: 20vw;
+        // iPad対応
+        @include tablet {
+          width: 30vw;
+         }
         }
         &:nth-of-type(2){
           width: 50vw;
@@ -450,9 +544,22 @@
   &__button {
       width: 70vw;
       margin-bottom: 30px;
+
+      @include tablet {
+        width: 80vw;
+        margin: 0;
+       }
+
+
       >.c-button {
           width: 20vw;
           height: 80px;
+
+          @include tablet {
+            width: 50vw;
+            margin: 0;
+           }
+
       }
   }
 
