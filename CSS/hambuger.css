@@ -1036,6 +1036,12 @@ td {
           align-items: center;
 }
 
+@media (max-width: 1200px) {
+  .p-single {
+    width: 100vw;
+  }
+}
+
 .p-single__top {
   width: 80vw;
   height: 200px;
@@ -1051,9 +1057,21 @@ td {
           align-items: center;
 }
 
+@media (max-width: 1200px) {
+  .p-single__top {
+    width: 100vw;
+  }
+}
+
 .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
   width: 70vw;
   margin: 20px 0;
+}
+
+@media (max-width: 1200px) {
+  .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
+    width: 80vw;
+  }
 }
 
 .p-single > p {
@@ -1061,8 +1079,20 @@ td {
   margin: 20px 0;
 }
 
+@media (max-width: 1200px) {
+  .p-single > p {
+    width: 80vw;
+  }
+}
+
 .p-single > p:nth-of-type(2) {
   margin: 20px 0 100px 0;
+}
+
+@media (max-width: 1200px) {
+  .p-single > p:nth-of-type(2) {
+    margin: 40px 0;
+  }
 }
 
 .p-single__quote {
@@ -1084,16 +1114,40 @@ td {
   margin: 20px 0;
 }
 
+@media (max-width: 1200px) {
+  .p-single__quote {
+    width: 80vw;
+  }
+}
+
 .p-single__quote > Blockquote {
   width: 65vw;
+}
+
+@media (max-width: 1200px) {
+  .p-single__quote > Blockquote {
+    width: 75vw;
+  }
 }
 
 .p-single__quote > p {
   width: 65vw;
 }
 
+@media (max-width: 1200px) {
+  .p-single__quote > p {
+    width: 75vw;
+  }
+}
+
 .p-single__quote > pre {
   width: 65vw;
+}
+
+@media (max-width: 1200px) {
+  .p-single__quote > pre {
+    width: 75vw;
+  }
 }
 
 .p-single__photo {
@@ -1104,6 +1158,12 @@ td {
   background-position: center;
   background-position: bottom;
   margin: 30px 0;
+}
+
+@media (max-width: 1200px) {
+  .p-single__photo {
+    width: 80vw;
+  }
 }
 
 .p-single__phototext {
@@ -1119,9 +1179,21 @@ td {
   margin: 0;
 }
 
+@media (max-width: 1200px) {
+  .p-single__phototext > .p-single__photo {
+    width: 35vw;
+  }
+}
+
 .p-single__phototext > P {
   width: 40vw;
   height: 200px;
+}
+
+@media (max-width: 1200px) {
+  .p-single__phototext > P {
+    width: 45vw;
+  }
 }
 
 .p-single > .p-single__photo:nth-of-type(6) {
@@ -1134,6 +1206,14 @@ td {
   margin: 30px 0;
 }
 
+@media (max-width: 1200px) {
+  .p-single > .p-single__photo:nth-of-type(6) {
+    width: 70vw;
+    height: 400px;
+    margin-bottom: 200px;
+  }
+}
+
 .p-single__grid {
   display: -ms-grid;
   display: grid;
@@ -1144,6 +1224,13 @@ td {
   gap: 20px;
 }
 
+@media (max-width: 1200px) {
+  .p-single__grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
 .p-single__grid > .p-single__photo {
   width: 23vw;
   background-image: url(/img/cheesePoteto.png);
@@ -1151,6 +1238,12 @@ td {
   background-position: center;
   background-position: bottom;
   margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .p-single__grid > .p-single__photo {
+    width: 40vw;
+  }
 }
 
 .p-single__list {
@@ -1169,12 +1262,24 @@ td {
   margin-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+  .p-single__table {
+    margin: 20px 0 40px 0;
+  }
+}
+
 .p-single__line > td {
   padding-left: 30px;
 }
 
 .p-single__line > td:nth-of-type(1) {
   width: 20vw;
+}
+
+@media (max-width: 1200px) {
+  .p-single__line > td:nth-of-type(1) {
+    width: 30vw;
+  }
 }
 
 .p-single__line > td:nth-of-type(2) {
@@ -1186,9 +1291,23 @@ td {
   margin-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+  .p-single__button {
+    width: 80vw;
+    margin: 0;
+  }
+}
+
 .p-single__button > .c-button {
   width: 20vw;
   height: 80px;
+}
+
+@media (max-width: 1200px) {
+  .p-single__button > .c-button {
+    width: 50vw;
+    margin: 0;
+  }
 }
 
 .p-footer {
