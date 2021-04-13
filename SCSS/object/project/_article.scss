@@ -359,6 +359,11 @@
       width: 80vw;
      } 
 
+     // iPhone対応
+     @include smartphone {
+       width: 90vw;
+     }
+
    }
 
    >p {
@@ -369,6 +374,11 @@
      @include tablet {
       width: 80vw;
      }
+
+      // iPhone対応
+      @include smartphone {
+        width: 90vw;
+      }
 
      &:nth-of-type(2) {
         margin: 20px 0 100px 0;
@@ -397,6 +407,11 @@
       width: 80vw;
      }
 
+     // iPhone対応
+     @include smartphone {
+      width: 90vw;
+      }
+
      >Blockquote {
        width: 65vw;
 
@@ -404,13 +419,24 @@
        @include tablet {
         width: 75vw;
        }
+
+       // iPhone対応
+       @include smartphone {
+        width: 85vw;
+       }
      }
+
      >p {
        width: 65vw;
 
        // iPad対応
        @include tablet {
         width: 75vw;
+       }
+
+       // iPhone対応
+       @include smartphone {
+        width: 85vw;
        }
      }
 
@@ -436,6 +462,11 @@
       width: 80vw;
      }
 
+     // iPhone対応
+     @include smartphone {
+      width: 90vw;
+     }
+
 
    }
 
@@ -452,6 +483,10 @@
       @include tablet {
         width: 35vw;
        }
+      // iPhone対応
+      @include smartphone {
+        width: 30vw;
+      }
   
      }
 
@@ -462,6 +497,11 @@
          // iPad対応
        @include tablet {
         width: 45vw;
+       }
+
+       // iPhone対応
+       @include smartphone {
+        width: 60vw;
        }
       
      }
@@ -481,6 +521,12 @@
       margin-bottom: 200px;
     }
 
+    // iPhone対応
+    @include smartphone {
+      width: 80vw;
+      margin: 30px 0 ;
+     }
+
 
   }
 
@@ -495,6 +541,11 @@
       grid-template-columns: 1fr 1fr ;
     }
 
+    // iPad対応
+    @include smartphone {
+      grid-template-columns:  1fr ;
+    }
+
     >.p-single__photo {
       width: 23vw;
       @include background(url(/img/cheesePoteto.png))  ;
@@ -504,6 +555,11 @@
       // iPad対応
       @include tablet {
         width: 40vw;
+      }
+
+      // iPhone対応
+      @include smartphone {
+        width: 90vw;
       }
     }
   }
@@ -535,6 +591,10 @@
         @include tablet {
           width: 30vw;
          }
+        @include smartphone {
+          width: 40vw;
+        }
+
         }
         &:nth-of-type(2){
           width: 50vw;
@@ -549,18 +609,11 @@
         width: 80vw;
         margin: 0;
        }
-
-
-      >.c-button {
-          width: 20vw;
-          height: 80px;
-
-          @include tablet {
-            width: 50vw;
-            margin: 0;
-           }
-
+      
+      @include smartphone {
+        width: 90vw;
       }
+
   }
 
 }
