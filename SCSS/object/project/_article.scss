@@ -322,7 +322,7 @@
   
 }
 
-// single.php////////////////////////////////////////////////////
+// single.phpとpage.php////////////////////////////////////////////////////
 .p-single {
    width: 80vw;
    display: flex;
@@ -618,3 +618,17 @@
 
 }
 
+///////////page.phpのみ/////////////
+.p-page__top {
+  width: 80vw;
+  height: 200px;
+  @include background(url(/img/shop-photo.png))  ;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  // iPad対応
+  @include tablet {
+   width: 100vw;
+  } 
+}
