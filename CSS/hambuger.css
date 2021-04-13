@@ -505,6 +505,27 @@ td {
   border-radius: 5px;
 }
 
+.c-button__single {
+  background-color: #f2ede9;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  width: 20vw;
+  height: 80px;
+}
+
+@media (max-width: 1200px) {
+  .c-button__single {
+    width: 50vw;
+    margin: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .c-button__single {
+    width: 90vw;
+  }
+}
+
 @media (max-width: 1200px) {
   .c-hamburgermenu {
     display: none;
@@ -1074,6 +1095,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
+    width: 90vw;
+  }
+}
+
 .p-single > p {
   width: 70vw;
   margin: 20px 0;
@@ -1082,6 +1109,12 @@ td {
 @media (max-width: 1200px) {
   .p-single > p {
     width: 80vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-single > p {
+    width: 90vw;
   }
 }
 
@@ -1120,6 +1153,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__quote {
+    width: 90vw;
+  }
+}
+
 .p-single__quote > Blockquote {
   width: 65vw;
 }
@@ -1130,6 +1169,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__quote > Blockquote {
+    width: 85vw;
+  }
+}
+
 .p-single__quote > p {
   width: 65vw;
 }
@@ -1137,6 +1182,12 @@ td {
 @media (max-width: 1200px) {
   .p-single__quote > p {
     width: 75vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-single__quote > p {
+    width: 85vw;
   }
 }
 
@@ -1166,6 +1217,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__photo {
+    width: 90vw;
+  }
+}
+
 .p-single__phototext {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1185,6 +1242,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__phototext > .p-single__photo {
+    width: 30vw;
+  }
+}
+
 .p-single__phototext > P {
   width: 40vw;
   height: 200px;
@@ -1193,6 +1256,12 @@ td {
 @media (max-width: 1200px) {
   .p-single__phototext > P {
     width: 45vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-single__phototext > P {
+    width: 60vw;
   }
 }
 
@@ -1214,6 +1283,13 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single > .p-single__photo:nth-of-type(6) {
+    width: 80vw;
+    margin: 30px 0;
+  }
+}
+
 .p-single__grid {
   display: -ms-grid;
   display: grid;
@@ -1231,6 +1307,13 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .p-single__grid > .p-single__photo {
   width: 23vw;
   background-image: url(/img/cheesePoteto.png);
@@ -1243,6 +1326,12 @@ td {
 @media (max-width: 1200px) {
   .p-single__grid > .p-single__photo {
     width: 40vw;
+  }
+}
+
+@media (max-width: 699px) {
+  .p-single__grid > .p-single__photo {
+    width: 90vw;
   }
 }
 
@@ -1282,6 +1371,12 @@ td {
   }
 }
 
+@media (max-width: 699px) {
+  .p-single__line > td:nth-of-type(1) {
+    width: 40vw;
+  }
+}
+
 .p-single__line > td:nth-of-type(2) {
   width: 50vw;
 }
@@ -1298,15 +1393,9 @@ td {
   }
 }
 
-.p-single__button > .c-button {
-  width: 20vw;
-  height: 80px;
-}
-
-@media (max-width: 1200px) {
-  .p-single__button > .c-button {
-    width: 50vw;
-    margin: 0;
+@media (max-width: 699px) {
+  .p-single__button {
+    width: 90vw;
   }
 }
 

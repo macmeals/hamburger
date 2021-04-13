@@ -88,7 +88,7 @@
           </tr>          
        </table>
        <div class=p-single__button>
-          <button class="c-button">
+          <button class="c-button__single">
                 ボタン
           </button>
        </div>
