@@ -1399,6 +1399,27 @@ td {
   }
 }
 
+.p-page__top {
+  width: 80vw;
+  height: 200px;
+  background-image: url(/img/shop-photo.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .p-page__top {
+    width: 100vw;
+  }
+}
+
 .p-footer {
   height: 60px;
   display: -webkit-box;
