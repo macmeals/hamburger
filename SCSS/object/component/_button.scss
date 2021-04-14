@@ -2,9 +2,10 @@
  .c-button {  
   background-color:#f2ede9;
   border: 1px solid #707070;
-  height: 18px;  /* xdのサンプルから固定とし,h2の文字の高さに合わせた */
-  width: 54px;   /* xdのサンプルから固定としたHeightの3倍とした*/
+  height: 50px;  /* xdのサンプルから固定とし,h2の文字の高さに合わせた */
+  width: 100px;   /* xdのサンプルから固定としたHeightの3倍とした*/
   border-radius: 5px;
+  font-size: 16px;
 
   &__single {
     background-color:#f2ede9;
@@ -38,12 +39,12 @@
   @include pc {
     display: none;
   }
-  font-size: 18px;  
+  font-size: 34px;  
   color: #707070; 
   position: relative; 
   background-color: #FFF7EF;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 100px;
 
   &.is-open {
         
@@ -56,7 +57,7 @@
 		height    : 4px;
 		background:#707070;
     position  : absolute;
-    top: 25px;
+    top: 50px;
 		left      : 5px;
 		display   : block;
     

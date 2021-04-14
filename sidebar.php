@@ -2,7 +2,7 @@
     <ul class="p-aside__main">
       <li>バーガー
         <ul class="p-aside__sub">
-          <li><a href="#">ハンバーガー</a></li>
+          <li>ハンバーガー</li>
           <li>チーズバーガー</li>
           <li>テリヤキバーガー</li>
           <li>アボガドバーガー</li>
