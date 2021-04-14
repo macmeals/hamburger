@@ -29,7 +29,7 @@
     <div class="l-header__top u-padding__left__right">
       <h1><a>Hamburger</a></h1>
       <form>
-        <input class="c-window " type="search" name="search" placeholder=" &#xf002">
+        <input class="c-window u-margin__right" type="search" name="search" placeholder=" &#xf002">
         <input class="c-button " type="submit" name="submit" value="検索">
       </form>
     </div>

@@ -5,7 +5,7 @@
   position: relative;
 
     &__top {
-      height: 80px;
+      height: 160px;
       width: 80vw; //headerの80%
       display: flex;
       justify-content: space-between;
@@ -13,7 +13,7 @@
       align-items: center;
 
       @include tablet { /* ipad対応fronts page */
-         height: 100px;
+         height: 200px;
          width: 100vw;
          display: flex;
          flex-direction: column;
@@ -25,17 +25,21 @@
     }
 
     &__bottom {
-      height: 80px;
+      height: 160px;
       width: 20vw; //headerの20%
       display: flex;
       align-items: center;
       background-color: #f2ede9;
+
+      >h2 {
+        font-size: 34px;
+      }
       
 
 
       @include tablet {  /* ipad対応fronts page */
         background-color:#FFF7EF;
-        height: 100px;
+        height: 200px;
         width: 20vw;
         position: absolute;
         left: 80%;
