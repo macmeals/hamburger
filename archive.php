@@ -16,8 +16,8 @@
           </div> 
       </div>
        <div class="p-archive__boxes">
-           <div class="p-archive__box1"></div>
-           <div class="p-archive__box2">
+           <div class="p-archive__box"></div>
+           <div class="p-archive__box">
               <h2>チーズバーガー</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
@@ -27,8 +27,8 @@
            </div>
        </div>
        <div class="p-archive__boxes">
-           <div class="p-archive__box1"></div>
-           <div class="p-archive__box2">
+           <div class="p-archive__box"></div>
+           <div class="p-archive__box">
               <h2>ダブルチーズバーガー</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
@@ -38,8 +38,8 @@
            </div>
        </div>
        <div class="p-archive__boxes">
-           <div class="p-archive__box1"></div>
-           <div class="p-archive__box2">
+           <div class="p-archive__box"></div>
+           <div class="p-archive__box">
               <h2>スペシャルチーズバーガー</h2>
               <h3>小見出しが入ります</h3>
               <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
