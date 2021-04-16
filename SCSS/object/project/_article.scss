@@ -189,11 +189,7 @@
 
        >h2 {
          font-size: 40px;
-       }
-
-       // iPad対応 
-       @include tablet {
-         height:150px;
+         padding-left: 60px ;
        }
 
        // iPhone対応 
@@ -219,7 +215,7 @@
        // iPad対応 
        @include tablet {
         width: 90vw;
-        height: 170px;
+        height: 330px;
        }
 
        // iPhone対応 

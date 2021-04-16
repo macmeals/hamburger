@@ -906,12 +906,7 @@ p {
 
 .p-archive__menu > h2 {
   font-size: 40px;
-}
-
-@media (max-width: 1200px) {
-  .p-archive__menu {
-    height: 150px;
-  }
+  padding-left: 60px;
 }
 
 @media (max-width: 699px) {
@@ -939,7 +934,7 @@ p {
 @media (max-width: 1200px) {
   .p-archive__text {
     width: 90vw;
-    height: 170px;
+    height: 330px;
   }
 }
 
