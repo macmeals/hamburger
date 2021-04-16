@@ -189,18 +189,17 @@
 
        >h2 {
          font-size: 40px;
-       }
-
-       // iPad対応 
-       @include tablet {
-         height:150px;
+         padding-left: 60px ;
        }
 
        // iPhone対応 
        @include smartphone {
         display: table-cell;
         vertical-align: middle;
-        
+
+        >p {
+          padding-left: 60px ;
+        }
        }
 
      }
@@ -219,13 +218,13 @@
        // iPad対応 
        @include tablet {
         width: 90vw;
-        height: 170px;
+        height: 330px;
        }
 
        // iPhone対応 
        @include smartphone {
         width: 90vw;
-        height: 250px;
+        height: 400px;
         margin-bottom: 20px;
        }
 
@@ -350,6 +349,7 @@
     display: flex;
     justify-content: space-between;
     margin: 30px;
+    font-size: 16px;
   }
   
 }

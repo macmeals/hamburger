@@ -906,18 +906,16 @@ p {
 
 .p-archive__menu > h2 {
   font-size: 40px;
-}
-
-@media (max-width: 1200px) {
-  .p-archive__menu {
-    height: 150px;
-  }
+  padding-left: 60px;
 }
 
 @media (max-width: 699px) {
   .p-archive__menu {
     display: table-cell;
     vertical-align: middle;
+  }
+  .p-archive__menu > p {
+    padding-left: 60px;
   }
 }
 
@@ -939,14 +937,14 @@ p {
 @media (max-width: 1200px) {
   .p-archive__text {
     width: 90vw;
-    height: 170px;
+    height: 330px;
   }
 }
 
 @media (max-width: 699px) {
   .p-archive__text {
     width: 90vw;
-    height: 250px;
+    height: 400px;
     margin-bottom: 20px;
   }
 }
@@ -1100,6 +1098,7 @@ p {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 30px;
+    font-size: 16px;
   }
 }
 
