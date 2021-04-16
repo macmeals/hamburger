@@ -542,12 +542,12 @@
 
      >P {
        width: 40vw;
-       height: 200px;
+       height: 275px;
 
          // iPad対応
        @include tablet {
         width: 45vw;
-        height: 300px;
+        height: 420px;
        }
 
        // iPhone対応
