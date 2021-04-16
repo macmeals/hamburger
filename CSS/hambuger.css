@@ -914,6 +914,9 @@ p {
     display: table-cell;
     vertical-align: middle;
   }
+  .p-archive__menu > p {
+    padding-left: 60px;
+  }
 }
 
 .p-archive__textall {
@@ -941,7 +944,7 @@ p {
 @media (max-width: 699px) {
   .p-archive__text {
     width: 90vw;
-    height: 250px;
+    height: 400px;
     margin-bottom: 20px;
   }
 }
@@ -1095,6 +1098,7 @@ p {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 30px;
+    font-size: 16px;
   }
 }
 

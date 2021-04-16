@@ -196,7 +196,10 @@
        @include smartphone {
         display: table-cell;
         vertical-align: middle;
-        
+
+        >p {
+          padding-left: 60px ;
+        }
        }
 
      }
@@ -221,7 +224,7 @@
        // iPhone対応 
        @include smartphone {
         width: 90vw;
-        height: 250px;
+        height: 400px;
         margin-bottom: 20px;
        }
 
@@ -346,6 +349,7 @@
     display: flex;
     justify-content: space-between;
     margin: 30px;
+    font-size: 16px;
   }
   
 }

@@ -64,8 +64,9 @@
        </ul>
        <!-- スマートフォン向けのページネーション -->
         <ul class="p-pagination2">
-           <li>«次へ</li>
-           <li>»前へ</li>
+           <li>«前へ</li>
+           <li>次へ»</li>
+           
         </ul>
     </article>
 
