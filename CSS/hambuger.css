@@ -1150,6 +1150,10 @@ table {
   }
 }
 
+.p-single__top h1 {
+  padding-left: 60px;
+}
+
 .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
   width: 70vw;
   margin: 20px 0;
@@ -1168,6 +1172,7 @@ table {
 }
 
 .p-single > h2 {
+  margin: 40px 0 20px 0;
   font-size: 36px;
 }
 
@@ -1234,6 +1239,7 @@ table {
 @media (max-width: 699px) {
   .p-single__quote {
     width: 90vw;
+    height: 350px;
   }
 }
 
@@ -1323,7 +1329,7 @@ table {
 
 @media (max-width: 699px) {
   .p-single__phototext > .p-single__photo {
-    width: 30vw;
+    width: 35vw;
   }
 }
 
@@ -1335,12 +1341,14 @@ table {
 @media (max-width: 1200px) {
   .p-single__phototext > P {
     width: 45vw;
+    height: 300px;
   }
 }
 
 @media (max-width: 699px) {
   .p-single__phototext > P {
-    width: 60vw;
+    width: 55vw;
+    height: 400px;
   }
 }
 

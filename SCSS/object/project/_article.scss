@@ -379,6 +379,9 @@
      width: 100vw;
     } 
 
+    h1 {
+      padding-left: 60px;
+    }
 
   }
 
@@ -398,6 +401,7 @@
    }
 
    >h2 {
+     margin: 40px 0 20px 0;
      font-size: 36px;
    }
 
@@ -453,6 +457,7 @@
      // iPhone対応
      @include smartphone {
       width: 90vw;
+      height: 350px;
       }
 
      >Blockquote {
@@ -526,10 +531,11 @@
       // iPad対応
       @include tablet {
         width: 35vw;
+        
        }
       // iPhone対応
       @include smartphone {
-        width: 30vw;
+        width: 35vw;
       }
   
      }
@@ -541,11 +547,13 @@
          // iPad対応
        @include tablet {
         width: 45vw;
+        height: 300px;
        }
 
        // iPhone対応
        @include smartphone {
-        width: 60vw;
+        width: 55vw;
+        height: 400px;
        }
       
      }
