@@ -16,6 +16,7 @@ input {
 button {
   border: none;  /* 枠線を消す */
   outline: none; /* クリックしたときに表示される枠線を消す */
+  font-size: 16px;
 }
 
 li {
@@ -37,5 +38,13 @@ h1 {
 }
 
 p {
+  font-size: 16px;
+}
+
+pre {
+  font-size: 16px;
+}
+
+table {
   font-size: 16px;
 }
