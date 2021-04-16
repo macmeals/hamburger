@@ -368,7 +368,7 @@
 
    &__top {
     width: 80vw;
-    height: 200px;
+    height: 300px;
     @include background(url(/img/cheeseburger2.png))  ;
     color: white;
     display: flex;
@@ -379,6 +379,9 @@
      width: 100vw;
     } 
 
+    h1 {
+      padding-left: 60px;
+    }
 
   }
 
@@ -395,7 +398,19 @@
      @include smartphone {
        width: 90vw;
      }
+   }
 
+   >h2 {
+     margin: 40px 0 20px 0;
+     font-size: 36px;
+   }
+
+   >h3 {
+     font-size: 28px;
+   }
+
+   >h4,h5,h6 {
+     font-size: 20px;
    }
 
    >p {
@@ -422,11 +437,11 @@
 
      }
 
-   }
+    }
 
    &__quote {
      width: 70vw;
-     height: 200px;
+     height: 250px;
      background-color: #f5f5f5;
      display: flex;
      flex-direction: column;
@@ -442,10 +457,12 @@
      // iPhone対応
      @include smartphone {
       width: 90vw;
+      height: 350px;
       }
 
      >Blockquote {
        width: 65vw;
+       font-size: 16px;
 
        // iPad対応
        @include tablet {
@@ -514,10 +531,11 @@
       // iPad対応
       @include tablet {
         width: 35vw;
+        
        }
       // iPhone対応
       @include smartphone {
-        width: 30vw;
+        width: 35vw;
       }
   
      }
@@ -529,11 +547,13 @@
          // iPad対応
        @include tablet {
         width: 45vw;
+        height: 300px;
        }
 
        // iPhone対応
        @include smartphone {
-        width: 60vw;
+        width: 55vw;
+        height: 400px;
        }
       
      }
@@ -598,11 +618,13 @@
   &__list {
       width: 70vw;
       margin-top: 30px ;
+      font-size: 16px;
   }
   &__sublist {
       width: 70vw;
       margin: 5px 0;
       padding-left: 10px;
+      font-size: 16px;
   }
 
   &__table {

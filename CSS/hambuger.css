@@ -340,6 +340,7 @@ button {
   /* 枠線を消す */
   outline: none;
   /* クリックしたときに表示される枠線を消す */
+  font-size: 16px;
 }
 
 li {
@@ -365,6 +366,14 @@ h1 {
 }
 
 p {
+  font-size: 16px;
+}
+
+pre {
+  font-size: 16px;
+}
+
+table {
   font-size: 16px;
 }
 
@@ -517,9 +526,7 @@ p {
   background-color: #f2ede9;
   border: 1px solid #707070;
   height: 50px;
-  /* xdのサンプルから固定とし,h2の文字の高さに合わせた */
   width: 100px;
-  /* xdのサンプルから固定としたHeightの3倍とした*/
   border-radius: 5px;
   font-size: 16px;
 }
@@ -1124,7 +1131,7 @@ p {
 
 .p-single__top {
   width: 80vw;
-  height: 200px;
+  height: 300px;
   background-image: url(/img/cheeseburger2.png);
   background-size: cover;
   background-position: center;
@@ -1143,6 +1150,10 @@ p {
   }
 }
 
+.p-single__top h1 {
+  padding-left: 60px;
+}
+
 .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
   width: 70vw;
   margin: 20px 0;
@@ -1158,6 +1169,19 @@ p {
   .p-single > h2, .p-single h3, .p-single h4, .p-single h5, .p-single h6 {
     width: 90vw;
   }
+}
+
+.p-single > h2 {
+  margin: 40px 0 20px 0;
+  font-size: 36px;
+}
+
+.p-single > h3 {
+  font-size: 28px;
+}
+
+.p-single > h4, .p-single h5, .p-single h6 {
+  font-size: 20px;
 }
 
 .p-single > p {
@@ -1189,7 +1213,7 @@ p {
 
 .p-single__quote {
   width: 70vw;
-  height: 200px;
+  height: 250px;
   background-color: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1215,11 +1239,13 @@ p {
 @media (max-width: 699px) {
   .p-single__quote {
     width: 90vw;
+    height: 350px;
   }
 }
 
 .p-single__quote > Blockquote {
   width: 65vw;
+  font-size: 16px;
 }
 
 @media (max-width: 1200px) {
@@ -1303,7 +1329,7 @@ p {
 
 @media (max-width: 699px) {
   .p-single__phototext > .p-single__photo {
-    width: 30vw;
+    width: 35vw;
   }
 }
 
@@ -1315,12 +1341,14 @@ p {
 @media (max-width: 1200px) {
   .p-single__phototext > P {
     width: 45vw;
+    height: 300px;
   }
 }
 
 @media (max-width: 699px) {
   .p-single__phototext > P {
-    width: 60vw;
+    width: 55vw;
+    height: 400px;
   }
 }
 
@@ -1397,12 +1425,14 @@ p {
 .p-single__list {
   width: 70vw;
   margin-top: 30px;
+  font-size: 16px;
 }
 
 .p-single__sublist {
   width: 70vw;
   margin: 5px 0;
   padding-left: 10px;
+  font-size: 16px;
 }
 
 .p-single__table {
