@@ -1233,6 +1233,7 @@ table {
 @media (max-width: 1200px) {
   .p-single__quote {
     width: 80vw;
+    height: 350px;
   }
 }
 
@@ -1490,7 +1491,7 @@ table {
 
 .p-page__top {
   width: 80vw;
-  height: 200px;
+  height: 300px;
   background-image: url(/img/shop-photo.png);
   background-size: cover;
   background-position: center;

@@ -452,6 +452,7 @@
      // iPad対応
      @include tablet {
       width: 80vw;
+      height: 350px;
      }
 
      // iPhone対応
@@ -675,7 +676,7 @@
 ///////////page.phpのみ/////////////
 .p-page__top {
   width: 80vw;
-  height: 200px;
+  height: 300px;
   @include background(url(/img/shop-photo.png))  ;
   color: white;
   display: flex;
