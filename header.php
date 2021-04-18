@@ -30,14 +30,13 @@
       <h1><a>Hamburger</a></h1>
       <form>
         <input class="c-window u-margin__right" type="search" name="search" placeholder=" &#xf002">
-        <input class="c-button " type="submit" name="submit" value="検索">
+        <input class="c-button" type="submit" name="submit" value="検索">
       </form>
     </div>
     <div class="l-header__bottom u-padding__left__right">
       <h2 class="c-hamburgermenu">Menu</h2>
       <button class="c-hamburgerbutton  is-hamburger">Menu</button>
     </div>
-   </div>
    <script src="/js/jquery-3.6.0.min.js"></script>
    <script src="/js/hamburger.js"></script>
    <div class="c-grayscreen"></div>
